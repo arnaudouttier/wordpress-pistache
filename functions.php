@@ -1,25 +1,63 @@
 <?php
 /**
- * Pistache functions and definitions
+ * Functions and definitions
  *
  * @link https://developer.wordpress.org/themes/basics/theme-functions/
  *
- * @package Pistache
- * @since Pistache 1.0
+ * @package pistache
+ * @since 1.0.0
  */
 
+/**
+ * The theme version.
+ *
+ * @since 1.0.0
+ */
+define( 'PISTACHE_VERSION', wp_get_theme()->get( 'Version' ) );
 
 /**
- * Enqueue the style.css file.
- * 
+ * Add theme support.
+ */
+function pistache_setup() {
+	add_theme_support( 'wp-block-styles' );
+
+}
+add_action( 'after_setup_theme', 'pistache_setup' );
+
+/**
+ * Enqueue the CSS files.
+ *
  * @since 1.0.0
+ *
+ * @return void
  */
 function pistache_styles() {
 	wp_enqueue_style(
-		'pistache-styles',
+		'pistache-style',
 		get_stylesheet_uri(),
-		array(),
-		wp_get_theme()->get( 'Version' )
+		[],
+		PISTACHE_VERSION
 	);
 }
 add_action( 'wp_enqueue_scripts', 'pistache_styles' );
+
+
+/* Bg color Editor Issue  */
+
+
+add_theme_support( 'editor-styles' );
+add_theme_support( 'dark-editor-style' );
+add_action( 'admin_head', function () { 
+	?>
+		<style>
+			.editor-styles-wrapper{
+				max-width : 70%!important;
+				margin :  auto!important;
+			}
+			.edit-site-visual-editor{
+				background-color : #ffffff!important;
+			}
+		</style>
+	<?php 
+} );
+
