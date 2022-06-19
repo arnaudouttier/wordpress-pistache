@@ -52,7 +52,7 @@ add_action( 'admin_head', function () {
 		<style>
 			.editor-styles-wrapper{
 				max-width : 70%!important;
-				margin :  auto!important;
+				margin-inline :  auto!important;
 			}
 			.edit-site-visual-editor{
 				background-color : #ffffff!important;
