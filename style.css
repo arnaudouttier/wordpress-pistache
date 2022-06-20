@@ -22,14 +22,19 @@ with others.
 */
 
 
+/* GLOBAL */
+
 /* Block Categories */
 
 .wp-block-categories {
     list-style: none;
     text-transform: uppercase;
     padding: 0;
+    font-weight: 700!important;
 }
 
+
+/* SPECIFIC */
 
 /* Front Page Post Title Arrow*/
 
@@ -39,7 +44,7 @@ with others.
 }
 
 .front-page-post-title a::after {
-    content: url(/wp-content/uploads/2022/06/arrow.png);
+    content: url("assets/images/arrow.png");
     position: absolute;
     right: 0;
     top: 0;
