@@ -20,39 +20,3 @@ This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned
 with others.
 */
-
-
-/* GLOBAL */
-
-/* Block Categories */
-
-.wp-block-categories {
-    list-style: none;
-    padding: 0;
-}
-
-
-/* SPECIFIC */
-
-/* Front Page Post Title Arrow*/
-
-
-.front-page-post-title {
-    position: relative;
-}
-
-.front-page-post-title a::after {
-    content: url("assets/images/arrow.png");
-    position: absolute;
-    right: 0;
-    top: 0;
-    transform: translateX(-20px);
-    visibility: hidden;
-    transition: all .4s ease;
-}
-
-
-.front-page-post-title a:hover::after {
-    transform: translateX(0px);
-    visibility: visible;
-}

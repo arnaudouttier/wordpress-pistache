@@ -15,38 +15,49 @@
  */
 define( 'PISTACHE_VERSION', wp_get_theme()->get( 'Version' ) );
 
-/**
- * Add theme support.
- */
-function pistache_setup() {
-	add_theme_support( 'wp-block-styles' );
 
-}
-add_action( 'after_setup_theme', 'pistache_setup' );
+if ( ! function_exists( 'pistache_support' ) ) :
 
-/**
- * Enqueue the CSS files.
- *
- * @since 1.0.0
- *
- * @return void
- */
-function pistache_styles() {
-	wp_enqueue_style(
-		'pistache-style',
-		get_stylesheet_uri(),
-		[],
-		PISTACHE_VERSION
-	);
-}
-add_action( 'wp_enqueue_scripts', 'pistache_styles' );
+	/**
+	 * Add theme support.
+	 */
+	function pistache_support() {
+		add_theme_support( 'wp-block-styles' );
+		add_theme_support( 'editor-styles' );
+		add_theme_support( 'dark-editor-style' );
+	
+	}
+	add_action( 'after_setup_theme', 'pistache_support' );
+
+endif;
+
+if ( ! function_exists( 'pistache_styles' ) ) :
+
+
+	/**
+	 * Enqueue the CSS files.
+	 *
+	 * @since 1.0.0
+	 *
+	 * @return void
+	 */
+	function pistache_styles() {
+		wp_enqueue_style(
+			'pistache-style',
+			get_template_directory_uri() . '/assets/theme.css',
+			[],
+			PISTACHE_VERSION
+		);
+	}
+	add_action( 'wp_enqueue_scripts', 'pistache_styles' );
+
+
+endif ; 
 
 
 /* Bg color Editor Issue  */
 
 
-add_theme_support( 'editor-styles' );
-add_theme_support( 'dark-editor-style' );
 add_action( 'admin_head', function () { 
 	?>
 		<style>
