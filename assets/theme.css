@@ -47,7 +47,7 @@
 
 /* Related Post */
 
-.related-post-grid {
+/* .related-post-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   column-gap: 2rem;
@@ -55,7 +55,7 @@
 
 .related-post-grid li {
     margin-block: 0;
-}
+} */
 
 /* Front Page Post Title Arrow*/
 
@@ -77,3 +77,12 @@
   transform: translateX(20px);
   opacity: 1;
 }
+
+@media (max-width: 772px){
+
+    .front-page-post-title .wp-block-post-title{
+        max-width: 100vw;
+    }
+
+}
+
