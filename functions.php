@@ -25,6 +25,9 @@ if ( ! function_exists( 'pistache_support' ) ) :
 		add_theme_support( 'wp-block-styles' );
 		add_theme_support( 'editor-styles' );
 		add_theme_support( 'dark-editor-style' );
+				// Enqueue editor styles.
+		add_editor_style( 'style.css' );
+
 	
 	}
 	add_action( 'after_setup_theme', 'pistache_support' );
