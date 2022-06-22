@@ -1,28 +1,12 @@
-<!-- wp:template-part {"slug":"header","tagName":"header","className":"site-header"} /-->
+<?php
+/**
+ * Title: List Posts
+ * Slug: pistache/list-posts
+ * Categories: featured, query
+ */
+?>
 
-<!-- wp:spacer {"height":"2rem"} -->
-<div style="height:2rem" aria-hidden="true" class="wp-block-spacer"></div>
-<!-- /wp:spacer -->
 
-<!-- wp:group {"layout":{"inherit":true}} -->
-<div class="wp-block-group"><!-- wp:columns {"verticalAlignment":"top"} -->
-<div class="wp-block-columns are-vertically-aligned-top"><!-- wp:column {"verticalAlignment":"top","width":"40vw","layout":{"inherit":true}} -->
-<div class="wp-block-column is-vertically-aligned-top" style="flex-basis:40vw"><!-- wp:paragraph -->
-<p>WRITING</p>
-<!-- /wp:paragraph --></div>
-<!-- /wp:column -->
-
-<!-- wp:column {"verticalAlignment":"top","width":"60vw","layout":{"inherit":true}} -->
-<div class="wp-block-column is-vertically-aligned-top" style="flex-basis:60vw"><!-- wp:heading {"level":4} -->
-<h4>Guides for <strong>innovators</strong> that are building game-changing, technology-driven organizations.</h4>
-<!-- /wp:heading --></div>
-<!-- /wp:column --></div>
-<!-- /wp:columns --></div>
-<!-- /wp:group -->
-
-<!-- wp:spacer {"height":"3rem"} -->
-<div style="height:3rem" aria-hidden="true" class="wp-block-spacer"></div>
-<!-- /wp:spacer -->
 
 <!-- wp:group {"layout":{"inherit":true}} -->
 <div class="wp-block-group"><!-- wp:query {"queryId":14,"query":{"perPage":2,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"exclude","inherit":true},"displayLayout":{"type":"list"},"layout":{"inherit":false}} -->
@@ -61,9 +45,3 @@
 <hr class="wp-block-separator has-alpha-channel-opacity is-style-wide"/>
 <!-- /wp:separator --></div>
 <!-- /wp:group -->
-
-<!-- wp:spacer {"height":"10rem"} -->
-<div style="height:10rem" aria-hidden="true" class="wp-block-spacer"></div>
-<!-- /wp:spacer -->
-
-<!-- wp:template-part {"slug":"footer","tagName":"footer"} /-->
