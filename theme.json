@@ -146,6 +146,50 @@
 					"slug": "colossal"
 				}
 			]
+		},
+		"form": {
+			"border": {
+				"color": "var(--wp--custom--color--primary)",
+				"radius": "0",
+				"style": "solid",
+				"width": "3px"
+			},
+			"checkbox": {
+				"checked": {
+					"fontSize": "var(--wp--custom--font-size--medium)",
+					"position": {
+						"left": "7px",
+						"top": "3px"
+					},
+					"sizing": {
+						"height": "25px",
+						"width": "25px"
+					}
+				},
+				"unchecked": {
+					"position": {
+						"top": "-0.4em"
+					},
+					"sizing": {
+						"height": "30px",
+						"width": "30px"
+					}
+				}
+			},
+			"color": {
+				"background": "transparent"
+			},
+			"label": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-sizes--x-small)",
+					"fontWeight": "900",
+					"letterSpacing": ".1em",
+					"textTransform": "uppercase"
+				}
+			},
+			"typography": {
+				"fontSize": "var(--wp--preset--font-size--small)"
+			}
 		}
 	},
 	"styles": {
