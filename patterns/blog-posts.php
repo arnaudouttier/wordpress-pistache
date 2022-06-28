@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Blog posts
- * Slug: skatepark/blog-posts
+ * Slug: pistache/blog-posts
  * Categories: featured, query
  */
 ?>

@@ -1,5 +1,6 @@
 {
 	"$schema": "https://schemas.wp.org/wp/6.0/theme.json",
+	"version": 2,
 	"customTemplates": [
 		{
 			"name": "blank",
@@ -55,10 +56,10 @@
 				"font-primary": "var(--wp--preset--font-family--inter-font)"
 			},
 			"font-weight": {
-				"bold": 700,
-				"bolder": 900,
 				"light": 200,
-				"medium": 400
+				"medium": 400,
+				"bold": 700,
+				"bolder": 900
 			},
 			"line-height": {
 				"large": 1.8,
@@ -174,16 +175,16 @@
 					"textTransform": "uppercase"
 				}
 			},
-			"core/navigation-link": {
+			"core/navigation": {
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--medium)",
-					"fontWeight": "var(--wp--custom--font-weight--light)",
-					"letterSpacing": "0.5px"
+					"letterSpacing": "0.5px",
+					"fontWeight": "var(--wp--custom--font-weight--bold)"
 				}
 			},
 			"core/paragraph": {
 				"typography": {
-					"fontSize": "var(--wp--preset--font-size--small)",
+					"fontSize": "var(--wp--preset--font-size--medium)",
 					"lineHeight": "var(--wp--custom--line-height--x-large)"
 				}
 			},
@@ -212,35 +213,18 @@
 					"color": "var(--wp--preset--color--primary)",
 					"width": "2px"
 				},
-				"color": {
-					"text": "var(--wp--preset--color--primary)"
-				},
 				"typography": {
-					"fontFamily": "var(--wp--custom--font-family--font-primary)",
 					"fontSize": "var(--wp--preset--font-size--gigantic)",
 					"fontWeight": "var(--wp--custom--font-weight--medium)"
 				}
 			},
-			"core/separator": {
-				"border": {
-					"color": "var(--wp--preset--color--primary)"
-				}
-			},
 			"core/site-title": {
-				"color": {
-					"text": "var(--wp--preset--color--primary)"
-				},
 				"typography": {
 					"fontFamily": "var(--wp--custom--font-family--font-primary)",
 					"fontSize": "var(--wp--preset--font-size--large)",
 					"fontStyle": "normal",
 					"fontWeight": "700",
 					"textTransform": "uppercase"
-				}
-			},
-			"core/social-link": {
-				"color": {
-					"text": "var(--wp--preset--color--primary)"
 				}
 			}
 		},
@@ -289,13 +273,11 @@
 				}
 			},
 			"link": {
-				"color": {
-					"text": "var(--wp--preset--color--primary)"
-				},
 				"typography": {
-					"fontFamily": "\"Inter\", sans-serif;",
-					"fontStyle": "normal",
-					"fontWeight": "500"
+					"fontWeight": "var(--wp--custom--font-weight--medium)"
+				},
+				"color": {
+					"text": "var(--wp--custom--color--primary)"
 				}
 			}
 		},
@@ -321,6 +303,5 @@
 			"name": "footer",
 			"title": "Footer"
 		}
-	],
-	"version": 2
+	]
 }

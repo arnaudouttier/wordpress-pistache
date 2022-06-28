@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Testimonial
- * Slug: skatepark/testimonial
+ * Slug: pistache/testimonial
  * Categories: featured, text
  */
 ?>

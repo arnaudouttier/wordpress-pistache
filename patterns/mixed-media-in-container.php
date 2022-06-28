@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Mixed Media in container
- * Slug: skatepark/mixed-media-in-container
+ * Slug: pistache/mixed-media-in-container
  * Categories: featured, text, images
  */
 ?>

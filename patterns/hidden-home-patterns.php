@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Block patterns for home page
- * Slug: skatepark/hidden-home-patterns
+ * Slug: istache/hidden-home-patterns
  * Inserter: no
  */
 ?>

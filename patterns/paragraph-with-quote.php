@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Paragraph with quote
- * Slug: skatepark/paragraph-with-quote
+ * Slug: pistache/paragraph-with-quote
  * Categories: text
  */
 ?>

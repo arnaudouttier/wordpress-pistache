@@ -50,18 +50,6 @@
   bottom: -8px;
 }
 
-/* Related Post */
-
-/* .related-post-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  column-gap: 2rem;
-}
-
-.related-post-grid li {
-    margin-block: 0;
-} */
-
 /* Front Page Post Title Arrow*/
 
 .front-page-post-title {
@@ -70,12 +58,20 @@
 }
 
 .front-page-post-title a::after {
-  content: url("images/arrow.png");
+  display: inline-block;
+  content: "";
+  width: 64px;
+  height: 64px;
+  -webkit-mask: url("images/arrow-right.svg") no-repeat 50% 50%;
+  mask: url("images/arrow-right.svg") no-repeat 50% 50%;
+  -webkit-mask-size: cover;
+  mask-size: cover;
   position: absolute;
   right: 20px;
   top: 0;
   opacity: 0;
   transition: all 0.3s ease;
+  background-color: var(--wp--preset--color--primary);
 }
 
 .front-page-post-title a:hover::after {
@@ -83,19 +79,11 @@
   opacity: 1;
 }
 
-@media (max-width: 772px) {
-  .front-page-post-title .wp-block-post-title {
-    max-width: 100vw;
-  }
-}
-
 /* Post Navigation Next Previous*/
 
 .post-navigation-link__label {
   font-size: var(--wp--preset--font-size--x-large);
 }
-
-/* Post Navigation Arrow */
 
 .wp-block-post-navigation-link {
   position: relative;
@@ -105,12 +93,19 @@
   position: absolute;
   top: 0;
   opacity: 0;
-  transition: all 0.3s ease;
+  transition: transform 0.3s ease;
+  width: 32px;
+  height: 32px;
+  content: "";
 }
 
 .post-navigation-link-previous:after {
-  content: url("images/arrow-small-left.webp");
+  -webkit-mask: url("images/arrow-left.svg") no-repeat 50% 50%;
+  mask: url("images/arrow-left.svg") no-repeat 50% 50%;
+  -webkit-mask-size: cover;
+  mask-size: cover;
   right: 20px;
+  background-color: var(--wp--preset--color--primary);
 }
 
 .post-navigation-link-previous:hover:after {
@@ -119,8 +114,12 @@
 }
 
 .post-navigation-link-next:after {
-  content: url("images/arrow-small-right.webp");
+  -webkit-mask: url("images/arrow-right.svg") no-repeat 50% 50%;
+  mask: url("images/arrow-right.svg") no-repeat 50% 50%;
+  -webkit-mask-size: cover;
+  mask-size: cover;
   right: 80px;
+  background-color: var(--wp--preset--color--primary);
 }
 
 .post-navigation-link-next:hover:after {

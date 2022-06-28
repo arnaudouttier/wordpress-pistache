@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Text list with button
- * Slug: skatepark/text-list-with-button
+ * Slug: pistache/text-list-with-button
  * Categories: text
  */
 ?>

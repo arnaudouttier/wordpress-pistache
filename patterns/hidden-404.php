@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: 404 page
- * Slug: skatepark/hidden-404
+ * Slug: pistache/hidden-404
  * Inserter: no
  */
 ?>

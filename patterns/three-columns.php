@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Three columns
- * Slug: skatepark/three-columns
+ * Slug: pistache/three-columns
  * Categories: columns
  */
 ?>

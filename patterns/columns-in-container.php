@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Columns in container
- * Slug: skatepark/columns-in-container
+ * Slug: pistache/columns-in-container
  * Categories: featured, columns
  */
 ?>

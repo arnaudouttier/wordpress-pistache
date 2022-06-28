@@ -1,8 +1,8 @@
 <?php
 /**
- * Title: List Posts
- * Slug: pistache/list-posts
- * Categories: featured, query
+ * Title: List Blog
+ * Slug: pistache/list-blog
+ * Categories: post, query
  */
 ?>
 

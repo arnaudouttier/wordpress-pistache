@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Full width image with aside caption
- * Slug: skatepark/full-width-image-with-aside-caption
+ * Slug: pistache/full-width-image-with-aside-caption
  * Categories: featured, text, images
  */
 ?>
