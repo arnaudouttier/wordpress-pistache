@@ -17,15 +17,15 @@
 <!-- /wp:separator -->
 
 <!-- wp:heading {"level":4,"style":{"spacing":{"margin":{"top":"1em"}}}} -->
-<h4 id="visiting-coaches" style="margin-top:1em"><?php echo esc_html__( 'Visiting Coaches', 'skatepark' ); ?></h4>
+<h4 id="visiting-coaches" style="margin-top:1em"><?php echo esc_html__( 'Visiting Coaches', 'pistache' ); ?></h4>
 <!-- /wp:heading --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
-<!-- wp:heading --><h2><?php echo esc_html__( 'Steph Harper. Buddy Sellers. Mehmet Farrow. Bob Lopez. Tammy Habich. Tye Barclay. Kaden Price. Lily Rivera. Chris Wright. Sammy Sanchez.', 'skatepark' ); ?></h2>
+<!-- wp:heading --><h2><?php echo esc_html__( 'Steph Harper. Buddy Sellers. Mehmet Farrow. Bob Lopez. Tammy Habich. Tye Barclay. Kaden Price. Lily Rivera. Chris Wright. Sammy Sanchez.', 'pistache' ); ?></h2>
 <!-- /wp:heading -->
 <!-- wp:buttons -->
 <div class="wp-block-buttons"><!-- wp:button {"className":"is-style-outline"} -->
-<div class="wp-block-button is-style-outline"><a class="wp-block-button__link"><?php echo esc_html__( 'See All Faculty', 'skatepark' ); ?></a></div>
+<div class="wp-block-button is-style-outline"><a class="wp-block-button__link"><?php echo esc_html__( 'See All Faculty', 'pistache' ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:column -->

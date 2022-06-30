@@ -1,6 +1,5 @@
 {
 	"$schema": "https://schemas.wp.org/wp/6.0/theme.json",
-	"version": 2,
 	"customTemplates": [
 		{
 			"name": "blank",
@@ -56,10 +55,10 @@
 				"font-primary": "var(--wp--preset--font-family--inter-font)"
 			},
 			"font-weight": {
-				"light": 200,
-				"medium": 400,
 				"bold": 700,
-				"bolder": 900
+				"bolder": 900,
+				"light": 200,
+				"medium": 400
 			},
 			"line-height": {
 				"large": 1.8,
@@ -178,8 +177,8 @@
 			"core/navigation": {
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--medium)",
-					"letterSpacing": "0.5px",
-					"fontWeight": "var(--wp--custom--font-weight--bold)"
+					"fontWeight": "var(--wp--custom--font-weight--bold)",
+					"letterSpacing": "0.5px"
 				}
 			},
 			"core/paragraph": {
@@ -273,11 +272,11 @@
 				}
 			},
 			"link": {
-				"typography": {
-					"fontWeight": "var(--wp--custom--font-weight--medium)"
-				},
 				"color": {
 					"text": "var(--wp--custom--color--primary)"
+				},
+				"typography": {
+					"fontWeight": "var(--wp--custom--font-weight--medium)"
 				}
 			}
 		},
@@ -303,5 +302,6 @@
 			"name": "footer",
 			"title": "Footer"
 		}
-	]
+	],
+	"version": 2
 }

@@ -24,7 +24,7 @@
 
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:heading {"level":3,"style":{"typography":{"fontSize":"14px"}}} -->
-<h3 style="font-size:14px;"><strong><?php echo esc_html__( 'More info', 'skatepark' ); ?></strong></h3>
+<h3 style="font-size:14px;"><strong><?php echo esc_html__( 'More info', 'pistache' ); ?></strong></h3>
 <!-- /wp:heading -->
 
 <!-- wp:navigation {"overlayMenu":"never","layout":{"type":"flex","setCascadingProperties":true,"justifyContent":"left","orientation":"vertical"},"overlayBackgroundColor":"foreground","overlayTextColor":"background","fontSize":"small"} -->
@@ -36,7 +36,7 @@
 
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:heading {"level":3,"style":{"typography":{"fontSize":"14px","textTransform":"uppercase"}}} -->
-<h3 style="text-transform:uppercase;font-size:14px"><strong><?php echo esc_html__( 'Search', 'skatepark' ); ?></strong></h3><!-- /wp:heading --><!-- wp:search {"label":"<?php echo esc_html__( 'Search', 'skatepark' ); ?>","showLabel":false,"buttonText":"<?php echo esc_html__( 'Search', 'skatepark' ); ?>","buttonPosition":"button-inside"} /--></div>
+<h3 style="text-transform:uppercase;font-size:14px"><strong><?php echo esc_html__( 'Search', 'pistache' ); ?></strong></h3><!-- /wp:heading --><!-- wp:search {"label":"<?php echo esc_html__( 'Search', 'pistache' ); ?>","showLabel":false,"buttonText":"<?php echo esc_html__( 'Search', 'pistache' ); ?>","buttonPosition":"button-inside"} /--></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns --></div>
 <!-- /wp:group -->
