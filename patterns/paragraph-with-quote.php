@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Paragraph with quote
- * Slug: skatepark/paragraph-with-quote
+ * Slug: pistache/paragraph-with-quote
  * Categories: text
  */
 ?>
@@ -13,15 +13,15 @@
 
 <!-- wp:column {"width":"56%","style":{"spacing":{"padding":{"right":"10%"}}}} -->
 <div class="wp-block-column" style="padding-right:10%;flex-basis:56%"><!-- wp:heading {"level":4} -->
-<h4><?php echo esc_html__( 'Why come to Skatepark?', 'skatepark' ); ?></h4>
+<h4><?php echo esc_html__( 'Why come to pistache?', 'pistache' ); ?></h4>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p><?php echo esc_html__( 'Skateboarding can teach people discipline, patience, and resiliency. It’s a great sport for kids with a lot of energy! We’ll help build up some structure and support in your life, all while you meet new people and have a ton of fun learning how to skateboard.', 'skatepark' ); ?></p>
+<p><?php echo esc_html__( 'Skateboarding can teach people discipline, patience, and resiliency. It’s a great sport for kids with a lot of energy! We’ll help build up some structure and support in your life, all while you meet new people and have a ton of fun learning how to skateboard.', 'pistache' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><?php echo esc_html__( 'Skateboarding is a social sport! Come hang out and meet some new friends to cheer you on while you skate. We have a strict no-bullying policy and maintain a supportive environment for all camp attendees. Plus, you’ll work 1:1 with our team of coaches to learn how to skate.', 'skatepark' ); ?></p>
+<p><?php echo esc_html__( 'Skateboarding is a social sport! Come hang out and meet some new friends to cheer you on while you skate. We have a strict no-bullying policy and maintain a supportive environment for all camp attendees. Plus, you’ll work 1:1 with our team of coaches to learn how to skate.', 'pistache' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column -->
 
@@ -33,11 +33,11 @@
 <!-- /wp:separator -->
 
 <!-- wp:paragraph {"style":{"typography":{"lineHeight":1.4}},"fontSize":"medium"} -->
-<p class="has-medium-font-size" style="line-height:1.4"><?php echo esc_html__( 'I learned how to do a kick flip and made a bunch of new friends. Can’t wait to go back!', 'skatepark' ); ?></p>
+<p class="has-medium-font-size" style="line-height:1.4"><?php echo esc_html__( 'I learned how to do a kick flip and made a bunch of new friends. Can’t wait to go back!', 'pistache' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"600"}}} -->
-<p style="font-style:normal;font-weight:600"><?php echo esc_html__( '– Jane Doe, 11', 'skatepark' ); ?></p>
+<p style="font-style:normal;font-weight:600"><?php echo esc_html__( '– Jane Doe, 11', 'pistache' ); ?></p>
 <!-- /wp:paragraph -->
 
 </div>

@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Testimonial
- * Slug: skatepark/testimonial
+ * Slug: pistache/testimonial
  * Categories: featured, text
  */
 ?>
@@ -15,13 +15,13 @@
 <!-- /wp:separator -->
 
 <!-- wp:paragraph {"align":"right","style":{"typography":{"fontStyle":"normal","fontWeight":"500"}}} -->
-<p class="has-text-align-right" style="font-style:normal;font-weight:500"><?php echo esc_html__( 'Jane Doe', 'skatepark' ); ?></p>
+<p class="has-text-align-right" style="font-style:normal;font-weight:500"><?php echo esc_html__( 'Jane Doe', 'pistache' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column -->
 
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"600","lineHeight":"1.15"}},"fontSize":"calc( var(--wp--preset--font-size--x-large) * 1.34)"} -->
-<p style="font-size:calc( var(--wp--preset--font-size--x-large) * 1.34);font-style:normal;font-weight:600;line-height:1.15"><?php echo esc_html__( 'I learned how to do a kick flip and made a bunch of new friends. Can’t wait to go back!', 'skatepark' ); ?></p>
+<p style="font-size:calc( var(--wp--preset--font-size--x-large) * 1.34);font-style:normal;font-weight:600;line-height:1.15"><?php echo esc_html__( 'I learned how to do a kick flip and made a bunch of new friends. Can’t wait to go back!', 'pistache' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns -->

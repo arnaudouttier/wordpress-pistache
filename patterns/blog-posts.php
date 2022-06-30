@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Blog posts
- * Slug: skatepark/blog-posts
+ * Slug: pistache/blog-posts
  * Categories: featured, query
  */
 ?>
@@ -21,7 +21,7 @@
 
 <!-- wp:post-title {"isLink":true,"style":{"typography":{"fontSize":"var(--wp--custom--font-sizes--normal)"},"spacing":{"margin":{"bottom":"calc( 0.5 * var(--wp--custom--gap--vertical) )"}}}} /-->
 
-<!-- wp:post-excerpt {"moreText":"<?php echo esc_html__( 'Continue reading', 'skatepark' ); ?>","style":{"spacing":{"margin":{"top":"calc( 0.5 * var(--wp--custom--gap--vertical) )","bottom":"calc( 0.5 * var(--wp--custom--gap--vertical) )"}}}} /-->
+<!-- wp:post-excerpt {"moreText":"<?php echo esc_html__( 'Continue reading', 'pistache' ); ?>","style":{"spacing":{"margin":{"top":"calc( 0.5 * var(--wp--custom--gap--vertical) )","bottom":"calc( 0.5 * var(--wp--custom--gap--vertical) )"}}}} /-->
 
 <!-- wp:post-date {"style":{"typography":{"fontSize":"16px","fontWeight":"500"}},"isLink":true} /--></div>
 <!-- /wp:group -->
