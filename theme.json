@@ -55,10 +55,10 @@
 				"font-primary": "var(--wp--preset--font-family--inter-font)"
 			},
 			"font-weight": {
-				"bold": 700,
-				"bolder": 900,
 				"light": 200,
-				"medium": 400
+				"medium": 500,
+				"bold": 700,
+				"bolder": 900
 			},
 			"line-height": {
 				"large": 1.8,
@@ -177,7 +177,7 @@
 			"core/navigation": {
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--medium)",
-					"fontWeight": "var(--wp--custom--font-weight--bold)",
+					"fontWeight": "var(--wp--custom--font-weight--medium)",
 					"letterSpacing": "0.5px"
 				}
 			},
@@ -214,7 +214,7 @@
 				},
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--gigantic)",
-					"fontWeight": "var(--wp--custom--font-weight--medium)"
+					"fontWeight": "var(--wp--custom--font-weight--medium)!important"
 				}
 			},
 			"core/site-title": {
@@ -222,7 +222,7 @@
 					"fontFamily": "var(--wp--custom--font-family--font-primary)",
 					"fontSize": "var(--wp--preset--font-size--large)",
 					"fontStyle": "normal",
-					"fontWeight": "700",
+					"fontWeight": "var(--wp--custom--font-weight--medium)",
 					"textTransform": "uppercase"
 				}
 			}
@@ -236,14 +236,14 @@
 				"typography": {
 					"fontFamily": "var(--wp--custom--font-family--font-primary)",
 					"fontSize": "var(--wp--preset--font-size--gigantic)",
-					"fontWeight": "400"
+					"fontWeight": "var(--wp--custom--font-weight--bolder)"
 				}
 			},
 			"h2": {
 				"typography": {
 					"fontFamily": "var(--wp--custom--font-family--font-primary)",
 					"fontSize": "var(--wp--preset--font-size--gigantic)",
-					"fontWeight": "var(--wp--custom--font-weight--medium)",
+					"fontWeight": "var(--wp--custom--font-weight--bold)",
 					"lineHeight": "var(--wp--custom--line-height--small)"
 				}
 			},
@@ -251,7 +251,7 @@
 				"typography": {
 					"fontFamily": "var(--wp--custom--font-family--font-primary)",
 					"fontSize": "var(--wp--preset--font-size--huge)",
-					"fontWeight": "var(--wp--custom--font-weight--medium)",
+					"fontWeight": "var(--wp--custom--font-weight--bold)",
 					"lineHeight": "var(--wp--custom--line-height--tiny)"
 				}
 			},
@@ -274,11 +274,7 @@
 			"link": {
 				"color": {
 					"text": "var(--wp--custom--color--primary)"
-				},
-				"typography": {
-					"fontWeight": "var(--wp--custom--font-weight--medium)"
-				}
-			}
+				}			}
 		},
 		"typography": {
 			"fontFamily": "var(--wp--custom--font-family--font-primary)",
