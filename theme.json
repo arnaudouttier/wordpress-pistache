@@ -34,7 +34,7 @@
 					"slug": "background"
 				},
 				{
-					"color": "#2A3637",
+					"color": "#2a3637",
 					"name": "Primary",
 					"slug": "primary"
 				},
@@ -55,10 +55,10 @@
 				"font-primary": "var(--wp--preset--font-family--inter-font)"
 			},
 			"font-weight": {
-				"light": 200,
-				"medium": 500,
 				"bold": 700,
-				"bolder": 900
+				"bolder": 900,
+				"light": 200,
+				"medium": 500
 			},
 			"line-height": {
 				"large": 1.8,
@@ -274,7 +274,8 @@
 			"link": {
 				"color": {
 					"text": "var(--wp--custom--color--primary)"
-				}			}
+				}
+			}
 		},
 		"typography": {
 			"fontFamily": "var(--wp--custom--font-family--font-primary)",
