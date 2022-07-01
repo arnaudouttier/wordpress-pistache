@@ -65,7 +65,7 @@
   bottom: -8px;
 }
 
-/* home Index Page*/
+/* Home/Index Page*/
 
 .front-page-post-item {
   position: relative;
@@ -111,7 +111,7 @@
   }
 }
 
-/* Post Navigation Next Previous*/
+/* Post Navigation Next Previous button*/
 
 .post-navigation-link__label {
   font-size: var(--wp--preset--font-size--x-large);
