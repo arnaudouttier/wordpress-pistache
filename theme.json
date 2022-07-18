@@ -157,11 +157,6 @@
 					"textTransform": "uppercase"
 				}
 			},
-			"core/separator": {
-				"border": {
-					"color": "var(--wp--preset--color--primary)"
-				}
-			},
 			"core/navigation": {
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--medium)",
@@ -261,7 +256,7 @@
 			},
 			"link": {
 				"color": {
-					"text": "var(--wp--custom--color--primary)"
+					"text": "var:preset|color|primary"
 				}
 			}
 		},

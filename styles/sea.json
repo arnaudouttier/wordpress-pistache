@@ -9,8 +9,8 @@
                         "#66A9DC",
                         "#060606"
                     ],
-                    "slug": "primary",
-                    "name": "Primary"
+                    "slug": "duotone-primary",
+                    "name": "Duotone-Primary"
                 },
                 {
                     "colors": [
@@ -40,33 +40,18 @@
             "palette": [
                 {
                     "slug": "primary",
-                    "color": "#fffff",
+                    "color": "#2a3637",
                     "name": "Primary"
                 },
                 {
                     "slug": "foreground",
-                    "color": "var(--wp--preset--palette-primary)",
+                    "color": "black",
                     "name": "Foreground"
                 },
                 {
                     "slug": "background",
                     "color": "lightblue",
                     "name": "Background"
-                },
-                {
-                    "slug": "foreground-secondary",
-                    "color": "#88E8A1",
-                    "name": "Secondary Foreground"
-                },
-                {
-                    "slug": "foreground-tertiary",
-                    "color": "#F8D651",
-                    "name": "Tertiary Foreground"
-                },
-                {
-                    "slug": "foreground-quarternary",
-                    "color": "#E97AF7",
-                    "name": "Quarternary Foreground"
                 }
             ]
         }
@@ -86,7 +71,7 @@
         "elements": {
             "link": {
                 "color": {
-                    "text": "var:preset|color|foreground"
+                    "text": "var:preset|color|primary"
                 }
             }
         }
