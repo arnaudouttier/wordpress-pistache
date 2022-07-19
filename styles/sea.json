@@ -44,6 +44,11 @@
                     "name": "Primary"
                 },
                 {
+                    "slug": "secondary",
+                    "color": "#f3f3eb",
+                    "name": "Secondary"
+                },
+                {
                     "slug": "foreground",
                     "color": "black",
                     "name": "Foreground"
@@ -64,7 +69,7 @@
                 },
                 "color": {
                     "background": "var:preset|color|foreground",
-                    "text": "var:custom|color|background"
+                    "text": "var:preset|color|secondary"
                 }
             }
         },
