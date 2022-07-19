@@ -256,7 +256,7 @@
 			},
 			"link": {
 				"color": {
-					"text": "var(--wp--custom--color--primary)"
+					"text": "var(--wp--preset--color--primary)"
 				},
 				"typography": {
 					"fontWeight": "var(--wp--custom--font-weight--medium)"
