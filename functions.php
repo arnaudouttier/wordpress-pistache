@@ -29,7 +29,8 @@ add_action('after_setup_theme', 'pistache_support');
 
 
 if (!function_exists('pistache_styles')) {
-	function pistache_styles(){
+	function pistache_styles()
+	{
 
 		wp_enqueue_style(
 			'pistache-style',
@@ -39,7 +40,6 @@ if (!function_exists('pistache_styles')) {
 
 		);
 	}
-
 }
 
 
@@ -48,7 +48,8 @@ add_action('wp_enqueue_scripts', 'pistache_styles');
 /* Bg color Editor Issue  */
 
 
-function pistache_editorVisualStyle() {
+function pistache_editorVisualStyle()
+{
 ?>
 <style>
 .editor-styles-wrapper {

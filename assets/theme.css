@@ -89,6 +89,7 @@
 @media (min-width: 772px) {
   .front-page-post-item {
     flex-direction: row;
+    column-gap: 4rem !important;
   }
 
   .front-page-post-item a::after {
