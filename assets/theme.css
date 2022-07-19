@@ -35,6 +35,12 @@
   color: inherit !important;
 }
 
+/* .wp-block-post-comments-form textarea */
+
+.wp-block-post-comments-form textarea {
+  border-color: currentColor;
+}
+
 /* SPECIFIC */
 
 /* Main Navigation */
@@ -175,7 +181,7 @@
 /* Page Block Featured Image */
 
 @media (min-width: 772px) {
-  :is(.single, .page) .wp-block-post-featured-image img {
+  :is(.single, .page) .main-post-featured img {
     aspect-ratio: 3/1 !important;
     object-fit: cover !important;
   }
