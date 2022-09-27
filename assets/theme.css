@@ -6,7 +6,8 @@
   list-style: none;
   padding: 0;
   display: flex;
-  column-gap: 1rem;
+  flex-wrap: wrap;
+  gap: 1rem;
 }
 
 .wp-block-categories .cat-item {
