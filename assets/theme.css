@@ -1,5 +1,9 @@
 /* GLOBAL */
 
+.wp-block-post-template.is-flex-container li {
+  width: auto;
+}
+
 /* Block Categories */
 
 .wp-block-categories {
