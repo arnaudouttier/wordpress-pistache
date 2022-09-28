@@ -1,4 +1,12 @@
-/* GLOBAL */
+/* GLOBAL SYLES */
+
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+/* GLOBAL BLOCK */
 
 .wp-block-post-template.is-flex-container li {
   width: auto;
